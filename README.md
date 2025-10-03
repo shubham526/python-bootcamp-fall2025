@@ -50,10 +50,6 @@ python-bootcamp-fall2025/
 │       ├── project_api_dashboard.ipynb
 │       ├── project_finance_tracker.ipynb
 │       └── project_fitness_analyzer.ipynb
-├── datasets/
-│   └── (Sample datasets generated in notebooks)
-├── resources/
-│   └── cheatsheets.md
 └── README.md
 ```
 
