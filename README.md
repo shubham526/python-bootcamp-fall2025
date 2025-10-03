@@ -61,18 +61,167 @@ python-bootcamp-fall2025/
 No installation required! Click the "Open in Colab" buttons below to run notebooks directly in your browser.
 
 ### Option 2: Local Installation
-If you prefer to run notebooks locally:
 
+If you prefer to run notebooks locally, we recommend using **Conda** as it handles Python installation and package management seamlessly.
+
+#### Recommended: Using Conda (Easiest for Beginners)
+
+**What is Conda?**
+Conda is an all-in-one package and environment manager that comes with Anaconda or Miniconda. It includes Python and makes installing data science packages much simpler.
+
+**Anaconda vs Miniconda:**
+- **Anaconda:** Full distribution (~3GB) with 250+ pre-installed packages. Good if you have disk space and want everything ready.
+- **Miniconda:** Minimal installer (~400MB) with just Python and conda. You install only what you need. **We recommend this.**
+
+**Step 1: Install Miniconda**
+1. Download Miniconda from [docs.conda.io/en/latest/miniconda.html](https://docs.conda.io/en/latest/miniconda.html)
+2. Run the installer and follow the prompts
+3. **Important:** Check "Add Miniconda to PATH" during installation (or restart your terminal after installation)
+
+**Step 2: Clone the Repository**
 ```bash
-# Clone the repository
+git clone https://github.com/YOUR-USERNAME/python-bootcamp-umsl.git
+cd python-bootcamp-umsl
+```
+
+**Step 3: Create Conda Environment**
+```bash
+# Create environment named 'bootcamp' with Python 3.10 and all required packages
+conda create -n bootcamp python=3.10 pandas matplotlib seaborn numpy jupyter requests -y
+
+# Activate the environment
+conda activate bootcamp
+```
+
+After activation, you'll see `(bootcamp)` at the start of your command prompt.
+
+**Step 4: Launch Jupyter Notebook**
+```bash
+jupyter notebook
+```
+
+This opens Jupyter in your browser. Navigate to the notebook you want to work with.
+
+**Step 5: When You're Done**
+```bash
+# Deactivate the environment
+conda deactivate
+```
+
+**For Future Sessions:**
+```bash
+# Just activate and launch
+conda activate bootcamp
+jupyter notebook
+```
+
+---
+
+#### Alternative: Using pip and venv (If You Already Have Python)
+
+If you already have Python 3.8+ installed, you can use virtual environments with pip.
+
+**What is a Virtual Environment?**
+A virtual environment is an isolated Python workspace that keeps project dependencies separate. It prevents package conflicts between different projects.
+
+**Setup Steps:**
+
+**On macOS/Linux:**
+```bash
+# Clone repository
 git clone https://github.com/YOUR-USERNAME/python-bootcamp-umsl.git
 cd python-bootcamp-umsl
 
-# Install required packages
+# Create virtual environment
+python3 -m venv venv
+
+# Activate it
+source venv/bin/activate
+
+# Install packages
+pip install --upgrade pip
 pip install pandas matplotlib seaborn numpy jupyter requests
 
 # Launch Jupyter
 jupyter notebook
+
+# When done
+deactivate
+```
+
+**On Windows:**
+```bash
+# Clone repository
+git clone https://github.com/YOUR-USERNAME/python-bootcamp-umsl.git
+cd python-bootcamp-umsl
+
+# Create virtual environment
+python -m venv venv
+
+# Activate it
+venv\Scripts\activate
+
+# Install packages
+pip install --upgrade pip
+pip install pandas matplotlib seaborn numpy jupyter requests
+
+# Launch Jupyter
+jupyter notebook
+
+# When done
+deactivate
+```
+
+---
+
+#### Troubleshooting
+
+**"conda: command not found"**
+- Restart your terminal after installing Miniconda
+- Or manually add Conda to PATH: Run the Miniconda installer again and ensure "Add to PATH" is checked
+
+**"python3: command not found" (for venv method)**
+- You need to install Python first from [python.org](https://www.python.org/downloads/)
+- Or switch to the Conda method above
+
+**Jupyter won't start**
+```bash
+# Make sure your environment is activated first
+conda activate bootcamp  # or: source venv/bin/activate
+
+# Then try launching again
+jupyter notebook
+```
+
+**Can't see notebooks in Jupyter**
+- Make sure you're in the `python-bootcamp-umsl` directory when you run `jupyter notebook`
+- Navigate using Jupyter's file browser
+
+**Windows Execution Policy Error (venv method)**
+```powershell
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+```
+
+---
+
+#### Quick Command Reference
+
+**Conda:**
+```bash
+conda activate bootcamp      # Start working
+jupyter notebook            # Launch Jupyter
+conda deactivate            # Stop working
+
+conda env list              # See all environments
+conda list                  # See installed packages
+```
+
+**Venv:**
+```bash
+source venv/bin/activate    # Start (Mac/Linux)
+venv\Scripts\activate       # Start (Windows)
+jupyter notebook            # Launch Jupyter
+deactivate                  # Stop
 ```
 
 ---
