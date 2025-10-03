@@ -82,7 +82,7 @@ jupyter notebook
 ### Chapter 1: Variables, Strings, Numbers & Input
 Learn Python basics including variables, data types, string manipulation, user input, and f-strings.
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/YOUR-USERNAME/python-bootcamp-umsl/blob/main/Day1/Chap1_Variables_Strings_Numbers.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/shubham526/python-bootcamp-fall2025/blob/main/Day1/Chap1.ipynb)
 
 **Topics Covered:**
 - Variables and assignment
@@ -97,7 +97,7 @@ Learn Python basics including variables, data types, string manipulation, user i
 ### Chapter 2: Lists, Loops, Conditionals & Dictionaries
 Master essential data structures and control flow for organizing and processing data.
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/YOUR-USERNAME/python-bootcamp-umsl/blob/main/Day1/Chap2_Lists_Loops_Conditionals_Dicts.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/shubham526/python-bootcamp-fall2025/blob/main/Day1/Chap2.ipynb)
 
 **Topics Covered:**
 - Lists: creation, indexing, slicing, methods
@@ -112,7 +112,7 @@ Master essential data structures and control flow for organizing and processing 
 ### Chapter 3: Functions & Classes
 Write reusable, modular code using functions and object-oriented programming.
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/YOUR-USERNAME/python-bootcamp-umsl/blob/main/Day1/Chap3_Functions_Classes.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/shubham526/python-bootcamp-fall2025/blob/main/Day1/Chap3.ipynb)
 
 **Topics Covered:**
 - Defining and calling functions
@@ -131,7 +131,7 @@ Write reusable, modular code using functions and object-oriented programming.
 ### Chapter 4: Files & Exceptions
 Handle file operations and errors gracefully to build robust applications.
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/YOUR-USERNAME/python-bootcamp-umsl/blob/main/Day1/Chap4_Files_Exceptions.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/shubham526/python-bootcamp-fall2025/blob/main/Day1/Chap4.ipynb)
 
 **Topics Covered:**
 - Reading and writing text files
@@ -151,7 +151,7 @@ Handle file operations and errors gracefully to build robust applications.
 #### Project A: Server Log Analyzer
 Build a tool to parse server logs, identify patterns, and generate reports.
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/YOUR-USERNAME/python-bootcamp-umsl/blob/main/Day1/projects/project_server_log_analyzer.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/shubham526/python-bootcamp-fall2025/blob/main/Day1/projects/project_server_log_analyzer.ipynb)
 
 **Skills Applied:** File I/O, string parsing, dictionaries, functions, error handling
 
@@ -160,7 +160,7 @@ Build a tool to parse server logs, identify patterns, and generate reports.
 #### Project B: Expense Report Processor
 Create an automated expense categorization and reporting system.
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/YOUR-USERNAME/python-bootcamp-umsl/blob/main/Day1/projects/project_expense_processor.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/shubham526/python-bootcamp-fall2025/blob/main/Day1/projects/project_expense_processor.ipynb)
 
 **Skills Applied:** CSV parsing, dictionaries, aggregations, error handling, formatting
 
@@ -169,7 +169,7 @@ Create an automated expense categorization and reporting system.
 #### Project C: Email List Cleaner
 Develop a contact list validator and deduplication tool.
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/YOUR-USERNAME/python-bootcamp-umsl/blob/main/Day1/projects/project_email_cleaner.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/shubham526/python-bootcamp-fall2025/blob/main/Day1/projects/project_email_cleaner.ipynb)
 
 **Skills Applied:** String validation, sets, file operations, data cleaning
 
@@ -180,7 +180,7 @@ Develop a contact list validator and deduplication tool.
 ### Chapter 5: Data Analysis with Pandas
 Master the essential library for data manipulation and analysis.
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/YOUR-USERNAME/python-bootcamp-umsl/blob/main/Day2/Chap5_Pandas.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/shubham526/python-bootcamp-fall2025/blob/main/Day2/Chap5.ipynb)
 
 **Topics Covered:**
 - Series and DataFrame objects
@@ -198,7 +198,7 @@ Master the essential library for data manipulation and analysis.
 ### Chapter 6: Data Visualization with Matplotlib
 Create professional, publication-ready visualizations.
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/YOUR-USERNAME/python-bootcamp-umsl/blob/main/Day2/Chap6_Matplotlib.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/shubham526/python-bootcamp-fall2025/blob/main/Day2/Chap6.ipynb)
 
 **Topics Covered:**
 - Figure and Axes architecture
@@ -217,7 +217,7 @@ Create professional, publication-ready visualizations.
 #### Option A: Public API Dashboard
 Build a command-line dashboard that fetches and displays live API data.
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/YOUR-USERNAME/python-bootcamp-umsl/blob/main/Day2/projects/project_api_dashboard.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/shubham526/python-bootcamp-fall2025/blob/main/Day2/projects/project_api_dashboard.ipynb)
 
 **Skills Applied:** API requests, JSON parsing, data processing, error handling
 
@@ -226,7 +226,7 @@ Build a command-line dashboard that fetches and displays live API data.
 #### Option B: Personal Finance Tracker
 Create an interactive expense tracking application with persistent storage.
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/YOUR-USERNAME/python-bootcamp-umsl/blob/main/Day2/projects/project_finance_tracker.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/shubham526/python-bootcamp-fall2025/blob/main/Day2/projects/project_finance_tracker.ipynb)
 
 **Skills Applied:** Classes, JSON storage, user input, data aggregation
 
@@ -235,7 +235,7 @@ Create an interactive expense tracking application with persistent storage.
 #### Option C: Fitness/Workout Analyzer
 Analyze workout logs and visualize training progress over time.
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/YOUR-USERNAME/python-bootcamp-umsl/blob/main/Day2/projects/project_fitness_analyzer.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/shubham526/python-bootcamp-fall2025/blob/main/Day2/projects/project_fitness_analyzer.ipynb)
 
 **Skills Applied:** Pandas data analysis, matplotlib visualization, data cleaning
 
