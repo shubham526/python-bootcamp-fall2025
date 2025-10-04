@@ -194,7 +194,7 @@ jupyter notebook
 ```
 
 **Can't see notebooks in Jupyter**
-- Make sure you're in the `python-bootcamp-umsl` directory when you run `jupyter notebook`
+- Make sure you're in the `python-bootcamp-fall2025` directory when you run `jupyter notebook`
 - Navigate using Jupyter's file browser
 
 **Windows Execution Policy Error (venv method)**
